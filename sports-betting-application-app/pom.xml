@@ -29,6 +29,20 @@
       <scope>compile</scope>
     </dependency>
   </dependencies>
+  <servers>
+        <!-- Additional info for distributionManagement sections defined in pom.xml-s -->
+		<!-- ugyanaz az id mint a pom xml-ben a remote repohoz-->
+        <server>
+            <id>sportsbetting_snapshots</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+		<server>
+            <id>sportsbetting_releases</id>
+            <username>admin</username>
+            <password>admin123</password>
+        </server>
+    </servers>
   <build>
         <plugins>
             <plugin>
