@@ -26,4 +26,14 @@
     <module>sports-betting-application-domain</module>
     <module>sports-betting-application-app</module>
   </modules>
+   <distributionManagement>
+   <repository>
+    <id>sportsbetting_releases</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/sportsbetting_releases</url>
+  </repository>
+  <snapshotRepository>
+    <id>sportsbetting_snapshots</id>
+    <url>http://192.168.33.10:8081/nexus/content/repositories/sportsbetting_snapshots</url>
+  </snapshotRepository>
+  </distributionManagement>
 </project>
